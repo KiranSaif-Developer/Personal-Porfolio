@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"> -->
+    <link rel="stylesheet" href="style.css">
+    <title>Personal Portfolio Website</title>
+    <script src="https://kit.fontawesome.com/428c2d32bf.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+         <nav>
+    <h1 class="logo"><span>Kiran</span>Saif</h1>
+    <ul id="sidemenu">
+        <li><a href="#header">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#Services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#Contact">Contact</a></li>
+        
+        <i class="fas fa-xmark" onclick="closemenu()"></i> 
+    </ul>
+    
+    <i class="fas fa-bars" onclick="openmenu()"></i> 
+</nav>
+            <!-- <div class="header-text">
+                <p>Full Stack Developer</p>
+                <h1>Hi,I am <span>Kiran Saif</span> <br>From Pakistan</h1>
+
+            </div> -->
+
+
+            <div class="header-text">
+    <p>Frontend Developer| WordPress | Lead Generation</p>
+    <h1>Hi, I am <span>Kiran Saif</span> <br>I am a Developer</h1>
+    <p class="header-desc">
+        I build high-quality websites using WordPress <br>modern Frontend technologies, 
+        along with<br> expert Lead Generation strategies to grow your business.
+    </p>
+    <a href="#Contact" class="btn">Hire Me</a>>
+   </div>
+
+
+             </div>
+            </div>
+<!-- ---------about----------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/image12.png">
+                    <a href="image/KIRAN SAIF CV.pdf" download class="btn btn2 ">Download CV</a>
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p class="aboutme">
+                        Hi, I’m Kiran Saif, a passionate Frontend Developer
+                         and a dedicated student. I love turning complex problems into beautiful, 
+                         responsive, and user-friendly websites. My focus is on writing clean code and constantly 
+                         learning new technologies like React and advanced CSS. I thrive in collaborative environments 
+                         and am always ready for the next big challenge.
+                    </p>
+                         <div class="tab-titles">
+                        <p class="tab-links" onclick="opentab(event, 'Personal-Info')">Persoanl Info</p>
+                        <p class="tab-links" onclick="opentab(event, 'Skills')">Skills</p>
+                         <p class="tab-links" onclick="opentab(event, 'Experience')">Experience</p>
+                          <p class="tab-links" onclick="opentab(event, 'Education')">Education</p>
+                      </div>
+               <div class="tab-content" id="Skills">
+    <ul>
+        <li><span>Frontend Development</span><br>Crafting responsive and interactive user interfaces using modern CSS & React.</li>
+        <li><span>WordPress Customization</span><br>Building professional business sites with Elementor, Divi, and custom plugin integration.</li>
+        <li><span>B2B Lead Generation</span><br>Providing verified, high-quality prospects to boost sales conversion rates.</li>
+        <li><span>UI/UX Design</span><br>Creating clean, user-centric layouts that enhance digital experiences.</li>
+    </ul>
+</div>
+
+<div class="tab-content" id="Experience">
+    <ul>
+        <li><span>Web Developer at Cyntik</span><br>Developing and maintaining client websites with a focus on performance and SEO.</li>
+        <li><span>Freelance WordPress Expert (Fiverr)</span><br>Successfully delivered 20+ custom WordPress projects for international clients.</li>
+        <li><span>Digital Marketing Specialist at Cyntik</span><br>Managing social media campaigns and improving brand engagement through strategic outreach.</li>
+    </ul>
+</div>
+
+<div class="tab-content" id="Education">
+    <ul>
+        <li><span>Web Development</span><br>Advanced Training & Certification (2023 - Present)</li>
+        <li><span>WordPress Masterclass</span><br>Professional Certification in CMS Development (2022 - 2023)</li>
+        <li><span>Lead Generation & Marketing</span><br>Specialized Course in B2B Strategic Prospecting (2022 - 2023)</li>
+    </ul>
+</div>
+    <!-- <div class="tab-content" id="Persoanl Info">
+    <ul>
+        <li><span>Name</span><br>Kiran Saif</li>
+        <li><span>Degree</span><br>BS Computer Science</li>
+         <li><span>Email:</span><br>kiran.saif@example.com</li>
+        <li><span>Freelance:</span><br>Available</li>
+    </ul>
+</div> -->
+<!-- <div class="tab-content active-tab" id="Personal-Info"> -->
+    <div class="tab-content" id="Personal-Info"> 
+    <div class="personal-info-grid">
+        <div class="info-item">
+            <span>Full Name</span>
+            <p>Kiran Saif</p>
+        </div>
+        <div class="info-item">
+            <span>Age</span>
+            <p>21 Years</p>
+        </div>
+        <div class="info-item">
+            <span>Location</span>
+            <p>Pakistan</p>
+        </div>
+        <div class="info-item">
+            <span>Degree</span>
+            <p>BS Computer Science</p>
+        </div>
+        <div class="info-item">
+            <span>Freelance</span>
+            <p>Available</p>
+        </div>
+    </div>
+</div>
+        </div>
+    </div>
+    </div>
+    <!-- ----Services---- -->
+ <div id="Services">
+ <div class="div">
+ <h1 class="sub-title">My Services</h1>
+ <div class="services-list">
+
+    <div>
+        <i class="fa-solid fa-code"></i>
+    <h2>Web Design</h2>
+    <p class="descri">
+        I create visually stunning, responsive website designs that offer an exceptional user experience. My focus is on modern aesthetics and user-centric interfaces that help brands build a strong and engaging digital presence.
+    </p>
+    <!-- <a href="#">Learn more</a> -->
+</div>
+
+
+    <div>
+        <i class="fa-solid fa-crop"></i>
+    <h2>WordPress Developer</h2>
+    <p class="descri">
+        I build high-performance WordPress sites by combining custom functionality with intuitive design. From seamless navigation to high-fidelity layouts, I ensure your website is powerful, easy to manage, and fully optimized.
+    </p>
+    <!-- <a href="#">Learn more</a> -->
+</div>
+
+
+     <div>
+        <i class="fa-brands fa-app-store"></i>
+    <h2>Lead Generation Specialist</h2>
+    <p class="descri">
+        I specialize in identifying high-quality business opportunities through strategic prospecting and data-driven outreach. I deliver verified, high-converting leads that drive revenue growth and ensure a strong return on investment.
+    </p>
+    <!-- <a href="#">Learn more</a> -->
+</div>
+
+ </div>
+ </div>
+ </div>
+ <!-- ------------------Portfolio----------- -->
+ <div id="portfolio">
+    <div class="container"> <h1 class="sub-title">My work</h1>
+        <div class="work-list">
+            
+            <div class="work">
+                <img src="image/myworkimage2.jpg">
+                <div class="layer">
+                    <h3>Event Venue Management system</h3>
+                    <p class="description">A comprehensive web-based solution for booking and managing event spaces, featuring real-time availability tracking, user authentication, and an intuitive dashboard for venue administrators.</p>
+                    <a href="https://github.com/KiranSaif-Developer/RoyalEvent-Halls-System" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="image/myworkimage3.jpg">
+                <div class="layer">
+                    <h3>Flavor Junction - Restaurant System</h3>
+                   <p>A high-performance digital menu and table reservation system featuring dynamic category filtering, online ordering logic, and a responsive customer feedback portal.</p>
+                    <a href="https://youtu.be/5JbUcPEzgrg" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="image/myworkimage4jpg.jpg">
+                <div class="layer">
+                    <h3>B2C Lead Generation</h3>
+                    <p class="description">Successfully delivered high-quality, verified leads for international clients using advanced prospecting tools to boost sales conversion.</p>
+                    <a href="https://docs.google.com/spreadsheets/d/12O9G2mjE9cnUj59Isqq6JVCmtRqFhjxNXArzzaeiuUc/edit?usp=sharing" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+        </div>
+        <!-- <div class="btn">See more</div> -->
+    </div>
+</div>
+<!-- --------contact form-------- -->
+<div id="Contact">
+    <div class="container">
+        <div class="row">
+
+            
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+               <p><i class="fa-solid fa-paper-plane"></i>Kiransaif.gul@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>+92 3226653867</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/ali.haider.254250/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://x.com/CodeWithKee" target="_blank"><i class="fa-brands fa-twitter-square"></i></a></a>
+                    <a href="https://www.instagram.com/mahramafatima57/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/abdul-salam-a94b2a319/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/KiranSaif-Developer" target="_blank"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <!-- <a href="image/KIRAN SAIF CV.pdf" download class="btn btn2">Download CV</a> -->
+            </div>
+
+
+            <div class="contact-right">
+                <!-- <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submitt</button>
+                </form> -->
+
+
+<form id="contactForm">
+    <input type="text" name="name" placeholder="Your Name" required>
+
+    <input type="email" name="email" placeholder="Your Email" required>
+
+    <input type="tel" name="phone" placeholder="Your Phone No." required>
+
+    <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+
+    <button type="submit" class="btn btn2">Submit</button>
+</form>
+<span id ="msg"></span>
+
+
+        </div>
+    </div>
+    </div>
+    <div class="copyright">
+        <p>copyright &copy; Kiran. Made With <i class="fa-solid fa-heart"></i>by Kiran</p>
+    </div>
+</div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents =  document.getElementsByClassName("tab-content");
+function opentab(event, tabname) {
+    for(let tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+for(let tabc of tabcontents){
+    tabc.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+
+    </script>
+    <script>
+        
+        var sidemenu =document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+         function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    // contact form
+    
+    const scriptURL = "https://script.google.com/macros/s/AKfycbzzSlyYkllP02dqqC33lCZ-XQYM1sog6h9ul4lFz51n-C2lIBVsNrxmiasOpoXLFIEE3g/exec";
+
+const form = document.getElementById("contactForm");
+const msg = document.getElementById("msg");
+
+form.addEventListener("submit", function(e) {
+  e.preventDefault();
+
+  fetch(scriptURL, {
+    method: "POST",
+    body: JSON.stringify({
+      name: form.name.value,
+      email: form.email.value,
+      phone: form.phone.value,
+      message: form.message.value
+    })
+  })
+  .then(response => {
+    msg.style.display = "block";
+    msg.style.color = "green";
+    msg.textContent = "Form submitted successfully!";
+    form.reset();
+
+    // 3 seconds baad message hide ho jaye
+    setTimeout(() => {
+      msg.style.display = "none";
+    }, 3000);
+  })
+  .catch(error => {
+    msg.style.display = "block";
+    msg.style.color = "red";
+    msg.textContent = "Something went wrong!";
+  });
+});
+    </script>
+</body>
+</html>
